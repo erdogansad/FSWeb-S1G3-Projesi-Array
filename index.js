@@ -41,7 +41,8 @@ Aşağıdakileri yapmak için aşağıdaki kopyalama işlevini kullanın:
 
 
 function kopyala(arr){
-  return arr;
+  let newArr = [...arr];
+  return newArr;
 }
 
 
